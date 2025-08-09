@@ -2,7 +2,7 @@
 
 
 
-1. #### Open MongoDB
+#### 1\. Open MongoDB
 
 
 
