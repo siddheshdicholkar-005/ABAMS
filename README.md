@@ -1,18 +1,44 @@
-How to Run the project
+# How to Run this Project
 
-Open MongoDB
-create a connection named "ABAMS"
-create a database named "academic-monitoring" with collection name "admins"
 
-create a file name ".env" in "ABAMS/backend/.env" in that file just enter 
-MONGO_URI = mongodb://localhost:27017/academic_monitoring
 
-Open 2 terminals in vscode 
---- 1st Terminal enter 
->> cd backend
->> npm install -D nodemon
->> npm run dev
+1. #### Open MongoDB
 
---- 2nd Terminal enter
->> npm install -D nodemon
->> npm run dev
+
+
+&nbsp;	Create a Connection named "ABAMS"
+
+&nbsp;	Create a database named "academic-monitoring" and a Collection Named "admins"
+
+
+
+#### 2\. Create .env file
+
+
+
+&nbsp;	Go in backend folder and create .env file "ABAMS/backend/.env" and just enter..
+
+&nbsp;	>> MONGO\_URI = mongodb://localhost:27017/academic\_monitoring
+
+
+
+#### 3\. Open 2 Terminals in VSCode
+
+
+
+&nbsp;	1st Terminal enter
+
+&nbsp;	>> cd backend
+
+&nbsp;	>> npm install nodemon
+
+&nbsp;	>> npm run dev
+
+
+
+&nbsp;	2nd Terminal enter
+
+&nbsp;	>> npm install nodemon
+
+&nbsp;	>> npm run dev
+
